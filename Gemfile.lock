@@ -71,6 +71,9 @@ GEM
     bindex (0.8.1)
     bootsnap (1.13.0)
       msgpack (~> 1.2)
+    bootstrap_form (5.1.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     builder (3.2.4)
     capybara (3.37.1)
       addressable
@@ -89,6 +92,8 @@ GEM
       reline (>= 0.3.1)
     digest (3.1.0)
     erubi (1.11.0)
+    faker (2.22.0)
+      i18n (>= 1.8.11, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -215,8 +220,10 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  bootstrap_form
   capybara
   debug
+  faker
   importmap-rails
   jbuilder
   puma (~> 5.0)
@@ -234,4 +241,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.7
+   2.3.20
